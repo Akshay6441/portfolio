@@ -101,7 +101,9 @@
       </nav>
       <!-- END nav -->
 
-      <div class="hero-section" id="home-section">
+      <!-- HERO SECTION -->
+
+<section class="hero-section" id="home-section">
 
 <div id="particles-js"></div>
 
@@ -116,7 +118,7 @@ Hi, I'm <span class="hero-name">Akshay</span>
 </h2>
 
 <p class="hero-desc">
-Computer Science Student focused on Machine Learning,
+Computer Science Student passionate about Machine Learning,
 AI systems and scalable software engineering.
 </p>
 
@@ -138,11 +140,12 @@ LinkedIn
 
 <div class="scroll-indicator">
 <span></span>
+<p>SCROLL</p>
 </div>
 
 </div>
 
-</div>
+</section>
 
         <a href="#portfolio-section" class="mouse-wrap smoothscroll">
           <span class="mouse">
@@ -678,7 +681,37 @@ LinkedIn
     <script src="js/scripts-dist.js"></script>
     <script src="js/main.js"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+       <!-- PARTICLES -->
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+<script>
+particlesJS("particles-js", {
+particles: {
+number: { value: 80 },
+color: { value: "#ff0050" },
+shape: { type: "circle" },
+opacity: { value: 0.5 },
+size: { value: 3 },
+line_linked: {
+enable: true,
+distance: 150,
+color: "#ff0050",
+opacity: 0.4,
+width: 1
+},
+move: {
+enable: true,
+speed: 2
+}
+}
+});
+</script>
+
+
+<!-- TYPING ANIMATION -->
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <script>
 var typed = new Typed("#typing", {
@@ -686,36 +719,11 @@ strings: [
 "Machine Learning Engineer",
 "Python Developer",
 "AI Enthusiast",
-"Building Intelligent Systems"
+"Future Software Engineer"
 ],
-typeSpeed:60,
-backSpeed:40,
-loop:true
-});
-</script>
-
-        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-
-<script>
-particlesJS("particles-js",{
-particles:{
-number:{value:90},
-color:{value:"#ff0050"},
-shape:{type:"circle"},
-opacity:{value:0.5},
-size:{value:3},
-line_linked:{
-enable:true,
-distance:150,
-color:"#ff0050",
-opacity:0.4,
-width:1
-},
-move:{
-enable:true,
-speed:3
-}
-}
+typeSpeed: 60,
+backSpeed: 40,
+loop: true
 });
 </script>
 
