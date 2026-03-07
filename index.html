@@ -101,44 +101,48 @@
       </nav>
       <!-- END nav -->
 
-      <div class="cover-v1 jarallax" style="background-image: url('images/b3.jpg');" id="home-section">
-  <div class="container">
-    <div class="row align-items-center">
-        
-      <div class="col-md-8 mx-auto text-center">
+      <div class="hero-section" id="home-section">
 
-        <h1 class="heading gsap-reveal-hero">
-          Hi, I'm <span style="color:#ff0050;">Akshay</span>
-        </h1>
+<div id="particles-js"></div>
 
-        <h2 class="subheading gsap-reveal-hero">
-          <span id="typing"></span>
-        </h2>
+<div class="hero-container">
 
-        <p class="gsap-reveal-hero" style="margin-top:20px;">
-          Computer Science Student passionate about Machine Learning,
-          AI systems, and building intelligent software.
-        </p>
+<h1 class="hero-title">
+Hi, I'm <span class="hero-name">Akshay</span>
+</h1>
 
-        <br>
+<h2 class="hero-typing">
+<span id="typing"></span>
+</h2>
 
-        <a href="#portfolio-section" class="btn btn-outline-pill btn-custom-light">
-          View Projects
-        </a>
+<p class="hero-desc">
+Computer Science Student focused on Machine Learning,
+AI systems and scalable software engineering.
+</p>
 
-        <a href="https://github.com/Akshay6441" target="_blank" class="btn btn-outline-pill btn-custom-light">
-          GitHub
-        </a>
+<div class="hero-buttons">
 
-        <a href="https://linkedin.com" target="_blank" class="btn btn-outline-pill btn-custom-light">
-          LinkedIn
-        </a>
+<a href="#portfolio-section" class="hero-btn">
+View Projects
+</a>
 
-      </div>
+<a href="https://github.com/Akshay6441" target="_blank" class="hero-btn">
+GitHub
+</a>
 
-    </div>
-  </div>
+<a href="#" class="hero-btn">
+LinkedIn
+</a>
 
+</div>
+
+<div class="scroll-indicator">
+<span></span>
+</div>
+
+</div>
+
+</div>
 
         <a href="#portfolio-section" class="mouse-wrap smoothscroll">
           <span class="mouse">
@@ -674,21 +678,48 @@
     <script src="js/scripts-dist.js"></script>
     <script src="js/main.js"></script>
 
-  </body>
-</html>
-
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <script>
 var typed = new Typed("#typing", {
-  strings: [
-    "Machine Learning Engineer",
-    "Python Developer",
-    "AI Enthusiast",
-    "Software Developer"
-  ],
-  typeSpeed: 60,
-  backSpeed: 40,
-  loop: true
+strings: [
+"Machine Learning Engineer",
+"Python Developer",
+"AI Enthusiast",
+"Building Intelligent Systems"
+],
+typeSpeed:60,
+backSpeed:40,
+loop:true
 });
 </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+<script>
+particlesJS("particles-js",{
+particles:{
+number:{value:90},
+color:{value:"#ff0050"},
+shape:{type:"circle"},
+opacity:{value:0.5},
+size:{value:3},
+line_linked:{
+enable:true,
+distance:150,
+color:"#ff0050",
+opacity:0.4,
+width:1
+},
+move:{
+enable:true,
+speed:3
+}
+}
+});
+</script>
+
+  </body>
+</html>
+
+        
