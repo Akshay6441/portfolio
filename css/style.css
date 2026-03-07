@@ -2479,3 +2479,168 @@ animation:scroll 1.5s infinite;
 50%{opacity:1;}
 100%{opacity:0;top:20px;}
 }
+/* ========================= */
+/* HERO SECTION */
+/* ========================= */
+
+.hero-section{
+position:relative;
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+overflow:hidden;
+padding-bottom:80px;
+}
+
+.hero-container{
+max-width:800px;
+margin:auto;
+z-index:2;
+}
+
+.hero-title{
+font-size:60px;
+font-weight:700;
+}
+
+.hero-name{
+color:#ff0050;
+}
+
+.hero-typing{
+font-size:26px;
+margin-top:10px;
+}
+
+.hero-desc{
+margin-top:15px;
+color:#aaa;
+font-size:16px;
+line-height:1.6;
+}
+
+.hero-buttons{
+margin-top:30px;
+}
+
+/* HERO BUTTONS */
+
+.hero-btn{
+display:inline-block;
+padding:12px 26px;
+margin:8px;
+border:2px solid #ff0050;
+color:white;
+border-radius:40px;
+text-decoration:none;
+font-size:14px;
+transition:all 0.3s ease;
+}
+
+.hero-btn:hover{
+background:#ff0050;
+transform:translateY(-3px);
+}
+
+
+/* ========================= */
+/* PARTICLES BACKGROUND */
+/* ========================= */
+
+#particles-js{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:0;
+}
+
+.hero-container{
+position:relative;
+z-index:2;
+}
+
+
+/* ========================= */
+/* PROJECT CARDS */
+/* ========================= */
+
+.project-item{
+display:block;
+background:#111;
+border-radius:10px;
+overflow:hidden;
+transition:0.3s;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.project-item:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+.project-details{
+padding:20px;
+}
+
+.project-details h3{
+font-size:18px;
+margin-bottom:8px;
+color:white;
+}
+
+.project-details p{
+font-size:14px;
+color:#aaa;
+margin-bottom:10px;
+}
+
+.project-details span{
+display:block;
+font-size:12px;
+color:#ff0050;
+}
+
+
+/* FIX PROJECT IMAGE SIZE */
+
+#posts img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+
+/* ========================= */
+/* SKILLS SECTION */
+/* ========================= */
+
+#skills-section img{
+transition:0.3s;
+}
+
+#skills-section img:hover{
+transform:scale(1.15);
+}
+
+
+/* ========================= */
+/* NAVBAR LOGO */
+/* ========================= */
+
+.unslate_co--site-logo{
+font-weight:700;
+font-size:22px;
+}
+
+
+/* ========================= */
+/* SCROLL INDICATOR */
+/* ========================= */
+
+.mouse-wrap{
+margin-top:30px;
+}
