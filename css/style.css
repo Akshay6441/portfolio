@@ -2644,3 +2644,98 @@ font-size:22px;
 .mouse-wrap{
 margin-top:30px;
 }
+/* ========================= */
+/* HERO SECTION FIX */
+/* ========================= */
+
+.cover-v1{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+/* ========================= */
+/* PROJECT CARDS */
+/* ========================= */
+
+.project-item{
+display:block;
+background:#111;
+border-radius:10px;
+overflow:hidden;
+transition:0.3s;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.project-item:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+.project-details{
+padding:20px;
+}
+
+.project-details h3{
+font-size:18px;
+margin-bottom:8px;
+color:white;
+}
+
+.project-details p{
+font-size:14px;
+color:#aaa;
+margin-bottom:10px;
+}
+
+.project-details span{
+display:block;
+font-size:12px;
+color:#D63447;
+}
+
+/* ========================= */
+/* PROJECT IMAGE FIX */
+/* ========================= */
+
+#posts img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px 10px 0 0;
+}
+
+/* ========================= */
+/* SKILLS ICON HOVER */
+/* ========================= */
+
+#skills-section img{
+transition:0.3s;
+}
+
+#skills-section img:hover{
+transform:scale(1.15);
+}
+
+/* ========================= */
+/* BUTTON IMPROVEMENT */
+/* ========================= */
+
+.btn-custom-light{
+border-radius:40px;
+transition:0.3s;
+}
+
+.btn-custom-light:hover{
+transform:translateY(-3px);
+}
+
+/* ========================= */
+/* PORTFOLIO GRID FIX */
+/* ========================= */
+
+#posts .item{
+margin-bottom:30px;
+}
