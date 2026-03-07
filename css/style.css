@@ -2739,3 +2739,12 @@ transform:translateY(-3px);
 #posts .item{
 margin-bottom:30px;
 }
+#skills-section img{
+transition:0.3s;
+filter:grayscale(20%);
+}
+
+#skills-section img:hover{
+transform:scale(1.2);
+filter:grayscale(0%);
+}
